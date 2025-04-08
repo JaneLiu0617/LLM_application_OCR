@@ -38,7 +38,7 @@ def perform_ocr(image_path):
     """Perform OCR using Llama 3.2-Vision via Ollama API."""
     base64_image = encode_image_to_base64(image_path)
     
-    url = "http://localhost:11434/api/chat"  # Ensure your Ollama server is running
+    url = "http://localhost:****/api/chat"  # Ensure your Ollama server is running
     headers = {"Content-Type": "application/json"}
     payload = {
         "model": "llama3.2-vision",
