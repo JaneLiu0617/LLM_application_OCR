@@ -63,7 +63,7 @@ def perform_ocr(image_path):
     if base64_image is None:
         return None
 
-    url = "http://localhost:11434/api/chat"
+    url = "http://localhost:*****/api/chat" # change into your own sever
     headers = {"Content-Type": "application/json"}
     payload = {
         "model": "llama3.2-vision",
