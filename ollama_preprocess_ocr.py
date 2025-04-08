@@ -61,7 +61,7 @@ def perform_ocr(image_path):
     if base64_image is None:
         return None  # Return None if image encoding fails
 
-    url = "http://localhost:11434/api/chat"  # Ensure your Ollama server is running
+    url = "http://localhost:*****/api/chat"  # Ensure your Ollama server is running
     headers = {"Content-Type": "application/json"}
     payload = {
         "model": "llama3.2-vision",
