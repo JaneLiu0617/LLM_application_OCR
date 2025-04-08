@@ -43,7 +43,7 @@ def perform_ocr_with_llama(image_path):
     base64_image = encode_image_to_base64(image_path)
     
     # Step 3: Send OCR text + image to LLaMA 3.2 for correction
-    url = "http://localhost:11434/api/chat"  # Ensure your Ollama server is running
+    url = "http://localhost:****/api/chat"  # Ensure your Ollama server is running
     headers = {"Content-Type": "application/json"}
     payload = {
         "model": "llama3.2-vision",
