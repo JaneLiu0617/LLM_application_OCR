@@ -84,7 +84,7 @@ def perform_ocr(image_path):
         return None
 
 if __name__ == "__main__":
-    image_path = "/Users/jiayiliu/Desktop/llama-ocr/source/stock_gs200.jpg"  # Replace with your actual image path
+    image_path = "/Users/****/Desktop/llama-ocr/source/stock_gs200.jpg"  # Replace with your actual image path
     result = perform_ocr(image_path)
     
     if result:
