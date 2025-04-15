@@ -118,7 +118,7 @@ def post_process(ocr_text):
     return stock_data, corrected_text #return both structured and corrected text.
 
 if __name__ == "__main__":
-    image_path = "/Users/jiayiliu/Desktop/llama-ocr/source/stock_gs200.jpg"
+    image_path = "/Users/******/Desktop/llama-ocr/source/stock_gs200.jpg"
     result = perform_ocr(image_path)
     
     if result:
